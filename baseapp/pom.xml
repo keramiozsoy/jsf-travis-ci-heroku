@@ -7,6 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>baseapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+	<parent>
+	  <groupId>com.keramiozsoy.petshop</groupId>
+	  <artifactId>baseappparent</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+	</parent>
   
   <dependencies>
     <dependency>
