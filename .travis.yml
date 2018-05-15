@@ -1,0 +1,17 @@
+language: java
+
+jdk:
+- oraclejdk7
+- oraclejdk8
+- openjdk8
+
+cache:
+   repository:
+	- '$HOME/.m2/repository'
+
+before_script:
+- echo $HOME
+- echo $JAVA_OPTS
+- echo $MAVEN_OPTS
+
+script: pwd && ls -al && mvn clean package
