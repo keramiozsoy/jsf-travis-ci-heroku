@@ -7,7 +7,7 @@ jdk:
 
 cache:
    repository:
-	- '$HOME/.m2/repository'
+   - '$HOME/.m2/repository'
 
 before_script:
 - echo $HOME
