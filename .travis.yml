@@ -14,3 +14,11 @@ before_script:
 - echo $MAVEN_OPTS
 
 script: pwd && ls -al && mvn clean package
+
+deploy:
+  provide: heroku
+  api_key:
+      secure:$heroku_key_api
+  app : jsf-travis-ci-heroku
+  on:
+     branch: master
