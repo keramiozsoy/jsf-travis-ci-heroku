@@ -18,7 +18,7 @@ script: pwd && ls -al && mvn clean package
 deploy:
   provider: heroku
   api_key:
-      secure:$heroku_key_api
+      secure: $heroku-key-api
   app : jsf-travis-ci-heroku
   on:
      branch: master
