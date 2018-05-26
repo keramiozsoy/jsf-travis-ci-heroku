@@ -1,6 +1,8 @@
 # jsf-travis-ci-heroku
 Example of Continuous Integration with Travis CI, Heroku and Java Server Faces (JSF)
 
+# v0.0.4 Github pull requests are working for showing production application
+`git checkout v0.0.4`
 
 # v0.0.3 Travis-CI connected tor Heroku
 `git checkout v0.0.3`
