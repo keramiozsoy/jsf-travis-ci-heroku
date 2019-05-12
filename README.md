@@ -17,3 +17,4 @@ Example of Continuous Integration with Travis CI, Heroku and Java Server Faces (
 `mvn archetype:generate -DgroupId=com.keramiozsoy.baseapp -DartifactId=baseapp -Dversion=0.0.1-SNAPSHOT -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false`
 
 
+
